@@ -1,7 +1,7 @@
 runtime : python37
 api_version : 1
-thread_safe : false
+threadsafe : false
 
 handlers:
-  -url : \
-  script : sample.py
+ - url : /
+   script : sample.py
